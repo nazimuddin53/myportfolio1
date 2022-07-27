@@ -134,6 +134,7 @@
 /* navigation */
 .navbar{
     position: sticky;
+    position:-webkit-sticky;
     top: 2px;
 }
 .navigation ul{
