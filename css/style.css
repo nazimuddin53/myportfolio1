@@ -71,13 +71,17 @@ body{
   font-size: 40px;
 }
 .content-home h1{
-  color: rgb(33, 153, 22);
+  color: rgb(182 233 178);
   font-size: 24px;
+  text-align: center;
+
 }
 .content-home p{
   padding: 3px;
   color: rgb(255, 255, 255);
   font-size: 16px;
+  text-align: center;
+
 }
 .content-home .button{
   margin-top: 45px;
@@ -390,7 +394,7 @@ display: block;
 .contact-input{
   padding: 10px;
   text-align: left;
-
+  overflow: hidden;
 }
 .name{
   width:44%;
@@ -441,6 +445,11 @@ display: block;
   border-radius: 20px;
   
 
+}
+.contact-input textarea{
+  height: auto;
+  width: 70%;
+  margin: 10px;
 }
 #submit{
   width: 124px;
